@@ -102,3 +102,120 @@
     background: no-repeat;
     object-fit: fill;
 }
+/* Banner */
+
+/* Sidebbar */
+
+#sidebar {
+    float: left;
+    width: 200px;
+}
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#sidebar li {
+margin-bottom: 20px;
+}
+#sidebar li ul {
+    padding: 10px;
+    border: 1px solid rgb(37, 12, 62);
+    border-top: none;
+}
+#sidebar li li {
+    margin: 0;
+    padding: 3px 0;
+    background-color: antiquewhite;
+}
+#sidebar li li.first {
+    background: none;
+}
+#sidebar li h2 {
+    height: 30px;
+    margin: 0;
+    padding: 10px 0 0 15px;
+    background-color: aquamarine;
+    letter-spacing: -1px;
+}
+#sidebar a:link {
+    text-decoration: underline;
+}
+#sidebar a:hover {
+    text-decoration: underline;
+}
+#sidebar li a {
+    padding-left: 10px;
+    background-color: bisque;
+}
+/* Sidebar */
+
+#page {
+    width: 760px;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+/* Content */
+
+#content {
+    float: right;
+    width: 510px;
+}
+.post {
+    margin-bottom: 20px;
+}
+.post .title{
+    padding: 0 20px;
+}
+.post .story {
+    padding: 0 20px;
+}
+.post .meta {
+    padding: 5px 20px;
+    background-color: brown;
+}
+.post .meta p{
+    margin: 0;
+    font-size: 70%;
+}
+.boxed .title {
+    height: 32px;
+    margin: 0;
+    padding: 8px 0 0 20px;
+    background-color: rgb(158, 123, 123);
+    letter-spacing: -1px;
+}
+.boxed .story{
+    padding: 20px;
+    border: 1px soid red;
+}
+.boxed .meta {
+    padding: 5px 10px;
+    background-color: rgb(158, 123, 123);
+}
+.boxed .meta .a {
+    color: chocolate;
+}
+
+/* Content */
+
+/* Foother */
+
+#footer {
+    clear: both;
+    height: 100px;
+    padding: 15px 0;
+    background-color: rgb(158, 123, 123);
+    text-align: center;
+}
+#foother p {
+    margin: 0;
+    color: rgb(158, 123, 123);
+}
+#foother a {
+    color: rgb(105, 62, 8);
+}
+#foother a:hover {
+    color: rgb(77, 53, 16);
+}
