@@ -1,0 +1,104 @@
+/* Menu */
+#menu {
+    width: 770px;
+    height: 105px;
+    margin: 0 auto;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu li {
+    display: block;
+    float: left;
+    width: 122px;
+    height: 65px;
+    padding: 40px 0 0 0;
+}
+#menu a {
+    display: block;
+    width: 122px;
+    height: 32px;
+    padding: 13px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color:whitesmoke ;
+    background-color: rgb(47, 62, 62);
+}
+#menu a:hover {
+    background-color: bisque;
+}
+#menu .active {
+       padding-top: 40px;
+      
+}
+#menu .active a {
+    height: 32px;
+    padding-top: 13px ;
+    background-color: rgb(47, 62, 62);
+    color: whitesmoke;
+
+}
+#menu .active a:hover {
+    background-color: bisque;
+}
+
+/* Menu */
+
+/* Header */
+
+#header {
+    width: 770px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+/* Logo */
+
+#logo {
+    float: left;
+    width: 300px;
+    height: 250px;
+    background: url(rabbit.jfif) no-repeat;
+    object-fit: cover;
+}
+#logo h1 , #logo h2 {
+    text-align: center;
+}
+#logo h1 {
+    padding-top: 90px;
+    letter-spacing: 8px;
+    font-size: 197%;
+}
+#logo h2{
+    letter-spacing: 2px;
+    font-size: 85%;
+}
+#logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Logo */
+
+/* Banner */
+
+#banner {
+    float: right;
+    width: 470px;
+    height: 180px;
+}
+
+#banner img{
+    float: right;
+    width: 470px;
+    height: 180px;
+    background: no-repeat;
+    object-fit: fill;
+}
